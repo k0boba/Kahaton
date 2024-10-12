@@ -1,0 +1,20 @@
+<dialogue>
+	<node>
+		<npctext> Добрый день. Чем могу помочь? </npctext>
+		<answers>
+			<answer tonode = "1">
+				<text> Здравствуйте! Я пришел по повестке, вступать в ряды курсантов! </text>							
+			</answer>
+		</answers>
+	</node>
+	
+	<node>
+		<npctext> Назовите свою Имя и Фамилию и предоставьте документы.</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Меня зовут ... </text>				
+				<dialend>true</dialend>				
+			</answer>
+		</answers>
+	</node>
+</dialogue>
